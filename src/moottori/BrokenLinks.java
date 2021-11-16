@@ -13,7 +13,7 @@ public class BrokenLinks {
         System.setProperty("webdriver.chrome.driver","./chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://lappari:lappari@myy.haaga-helia.fi/~jusju/ohjelmointi2/");
+        driver.get("http://myy.haaga-helia.fi/~jusju/ohjelmointi2/dao/");
 
         //Storing the links in a list and traversing through the links
         List<WebElement> links = driver.findElements(By.tagName("a"));
